@@ -48,6 +48,12 @@ public class UniversalDetectorTest {
         assertEquals("ISO-2022-JP", detectEncoding("iso2022jp.txt"));
         assertEquals("EUC-JP", detectEncoding("euc.txt"));
         
+        assertEquals("BIG5", detectEncoding("big5.txt"));
+        assertEquals("EUC-TW", detectEncoding("euctw.txt"));
+        assertEquals("EUC-KR", detectEncoding("euckr.txt"));
+        assertEquals("GB18030", detectEncoding("gb18030.txt"));
+        assertEquals("WINDOWS-1255", detectEncoding("windows1255.txt"));
+        
         assertEquals("UTF-8", detectEncoding("utf8n-emoji.txt"));
     }
 
