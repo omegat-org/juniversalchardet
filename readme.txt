@@ -6,6 +6,9 @@ juniversalchardet
 juniversalchardet is a Java port of "universalchardet",
 that is the encoding detector library of Mozilla.
 
+This fork fixes detection of UTF-8 when the text contains SMP
+characters such as emoji.
+
 The original code of universalchardet is available at
 http://lxr.mozilla.org/seamonkey/source/extensions/universalchardet/
 
